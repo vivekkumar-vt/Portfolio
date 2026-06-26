@@ -88,29 +88,13 @@ export default function Skills() {
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-purple" />
               </h3>
 
-              <div className="space-y-6 flex-grow">
+              <div className="space-y-4 flex-grow">
                 {category.skills.map((skill) => (
-                  <div key={skill.name} className="flex flex-col gap-2">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2.5">
-                        <div className="w-7 h-7 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-sm">
-                          {skill.icon}
-                        </div>
-                        <span className="text-sm font-semibold text-slate-200">{skill.name}</span>
-                      </div>
-                      <span className="text-xs font-bold text-slate-400 font-mono">{skill.level}%</span>
+                  <div key={skill.name} className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-base">
+                      {skill.icon}
                     </div>
-                    
-                    {/* Progress Track */}
-                    <div className="w-full h-2 rounded-full bg-white/5 overflow-hidden border border-white/5">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 1.2, ease: 'easeOut', delay: 0.1 }}
-                        className="h-full rounded-full bg-gradient-to-r from-brand-purple to-brand-blue shadow-[0_0_8px_rgba(139,92,246,0.3)]"
-                      />
-                    </div>
+                    <span className="text-sm font-semibold text-slate-200">{skill.name}</span>
                   </div>
                 ))}
               </div>

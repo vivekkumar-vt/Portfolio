@@ -18,7 +18,7 @@ const educationData = [
     institution: 'CBSE Board School',
     scoreLabel: 'Final Percentage',
     score: '73.8%',
-    duration: '2021 - 2023',
+    duration: '2023',
     details: 'Concentrated in Physics, Chemistry, and Mathematics. Built strong analytical foundations.',
     icon: <FaSchool />
   },
@@ -28,7 +28,7 @@ const educationData = [
     institution: 'CBSE Board School',
     scoreLabel: 'Final Percentage',
     score: '78.1%',
-    duration: '2019 - 2021',
+    duration: '2021',
     details: 'Completed general education with special interest in mathematics, computing fundamentals, and physical sciences.',
     icon: <FaSchool />
   }
