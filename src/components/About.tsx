@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { FaGraduationCap, FaLightbulb, FaBriefcase } from 'react-icons/fa6';
 
 const stats = [
-  { label: 'Cumulative CGPA', value: '8.25', suffix: '/10', description: 'Academic Excellence' },
+  { label: 'Cumulative CGPA', value: '8.15', suffix: '/10', description: 'Academic Excellence' },
   { label: 'Projects Built', value: '1+', suffix: '', description: 'Production & Academic' },
   { label: 'LeetCode Solved', value: '200+', suffix: '', description: 'Data Structures & Alg' },
   { label: 'Core Skills', value: '12+', suffix: '', description: 'Full Stack Technologies' }
@@ -55,7 +55,7 @@ export default function About() {
             </h3>
             
             <p className="text-slate-300 text-base leading-relaxed">
-              I am currently pursuing my Bachelor of Technology in Computer Science & Engineering at <strong>KCC Institute of Technology & Management, Greater Noida</strong>. With an academic record of <strong>8.25 CGPA</strong>, I possess a strong theoretical background in Core Computer Science concepts alongside a drive for hands-on software development.
+              I am currently pursuing my Bachelor of Technology in Computer Science & Engineering at <strong>KCC Institute of Technology & Management, Greater Noida</strong>. With an academic record of <strong>8.15 CGPA</strong>, I possess a strong theoretical background in Core Computer Science concepts alongside a drive for hands-on software development.
             </p>
 
             <p className="text-slate-300 text-base leading-relaxed">

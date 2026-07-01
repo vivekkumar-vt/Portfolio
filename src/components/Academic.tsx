@@ -7,7 +7,7 @@ const educationData = [
     degree: 'B.Tech in Computer Science & Engineering',
     institution: 'KCC Institute of Technology & Management, Greater Noida',
     scoreLabel: 'Cumulative CGPA',
-    score: '8.25 / 10',
+    score: '8.15 / 10',
     duration: '2023 - 2027',
     details: 'Focused on Core Java, Data Structures and Algorithms, Database Management Systems, Operating Systems, and Object-Oriented Software Design.',
     icon: <FaGraduationCap />

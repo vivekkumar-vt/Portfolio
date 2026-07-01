@@ -229,7 +229,7 @@ export default function Hero() {
               <FaGraduationCap className="text-lg" />
             </div>
             <div>
-              <div className="text-2xl font-extrabold text-white tracking-tight">8.25</div>
+              <div className="text-2xl font-extrabold text-white tracking-tight">8.15</div>
               <div className="text-[10px] text-slate-500 font-bold uppercase tracking-wider mt-0.5">Current CGPA</div>
             </div>
           </div>
