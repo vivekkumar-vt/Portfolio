@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGraduationCap, FaSchool } from 'react-icons/fa6';
+import { FaGraduationCap, FaSchool, FaFilePdf } from 'react-icons/fa6';
 
 const educationData = [
   {
@@ -128,13 +128,26 @@ export default function Academic() {
                         {item.details}
                       </p>
 
-                      <div className="inline-flex items-center gap-3 px-4 py-2 rounded-xl bg-white/5 border border-white/5">
-                        <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
-                          {item.scoreLabel}:
-                        </span>
-                        <span className="text-sm font-bold text-white bg-gradient-to-r from-brand-purple to-brand-blue bg-clip-text text-transparent">
-                          {item.score}
-                        </span>
+                      <div className="flex flex-wrap items-center gap-3">
+                        <div className="inline-flex items-center gap-3 px-4 py-2 rounded-xl bg-white/5 border border-white/5">
+                          <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                            {item.scoreLabel}:
+                          </span>
+                          <span className="text-sm font-bold text-white bg-gradient-to-r from-brand-purple to-brand-blue bg-clip-text text-transparent">
+                            {item.score}
+                          </span>
+                        </div>
+                        {item.type === 'college' && (
+                          <a
+                            href="/Vivek_Kumar_Result.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-purple/10 hover:bg-brand-purple/20 border border-brand-purple/20 hover:border-brand-purple/40 text-xs font-semibold text-brand-purple hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(139,92,246,0.05)] hover:shadow-[0_0_20px_rgba(139,92,246,0.15)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                          >
+                            <FaFilePdf className="text-sm text-brand-pink" />
+                            <span>View Result</span>
+                          </a>
+                        )}
                       </div>
                     </div>
                   </motion.div>
