@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Academic from './components/Academic';
 import Skills from './components/Skills';
+import Certificates from './components/Certificates';
 import Projects from './components/Projects';
 import LeetCodeLinkedIn from './components/LeetCodeLinkedIn';
 import Contact from './components/Contact';
@@ -38,6 +39,7 @@ export default function App() {
         <Skills />
         <Projects />
         <LeetCodeLinkedIn />
+        <Certificates />
         <Contact />
       </main>
 
