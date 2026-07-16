@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaPhone, FaMapPin, FaGithub, FaLinkedin } from 'react-icons/fa6';
-import { SiLeetcode, SiGeeksforgeeks } from 'react-icons/si';
+
 
 export default function Contact() {
   return (

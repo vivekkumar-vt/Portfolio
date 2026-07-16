@@ -17,7 +17,7 @@ export default function Hero() {
   const [typingSpeed, setTypingSpeed] = useState(150);
 
   useEffect(() => {
-    let timer: any;
+    let timer: ReturnType<typeof setTimeout>;
     const fullText = roles[roleIndex];
 
     const handleType = () => {

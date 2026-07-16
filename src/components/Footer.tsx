@@ -1,11 +1,4 @@
 export default function Footer() {
-  const handleScrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  };
-
   return (
     <footer className="relative bg-[#020010] border-t border-white/5 py-12 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 relative z-10">
