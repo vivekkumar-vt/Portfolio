@@ -60,7 +60,7 @@ export default function LeetCodeLinkedIn() {
 
               <div className="mb-8">
                 <div className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">DSA Accomplishments</div>
-                <div className="text-3xl font-black text-white mb-3">200+ Solved Problems</div>
+                <div className="text-3xl font-black text-white mb-3">220+ Solved Problems</div>
                 <p className="text-slate-400 text-sm leading-relaxed">
                   Regularly solving algorithm problems on LeetCode. Strong focus on data structures, sorting, searching, binary trees, and performance optimization.
                 </p>
