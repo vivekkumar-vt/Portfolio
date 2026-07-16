@@ -207,7 +207,7 @@ export default function Hero() {
               <FaTrophy className="text-lg" />
             </div>
             <div>
-              <div className="text-2xl font-extrabold text-white tracking-tight">200+</div>
+              <div className="text-2xl font-extrabold text-white tracking-tight">220+</div>
               <div className="text-[10px] text-slate-500 font-bold uppercase tracking-wider mt-0.5">LeetCode Solved</div>
             </div>
           </div>
