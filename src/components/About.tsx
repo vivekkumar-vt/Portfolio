@@ -4,14 +4,13 @@ import { FaGraduationCap, FaLightbulb, FaBriefcase } from 'react-icons/fa6';
 const stats = [
   { label: 'Cumulative CGPA', value: '8.15', suffix: '/10', description: 'Academic Excellence' },
   { label: 'Projects Built', value: '1+', suffix: '', description: 'Production & Academic' },
-  { label: 'LeetCode Solved', value: '200+', suffix: '', description: 'Data Structures & Alg' },
-  { label: 'Core Skills', value: '12+', suffix: '', description: 'Full Stack Technologies' }
+  { label: 'LeetCode Question Solved', value: '220+', suffix: '', description: 'Data Structures & Algorithms' },
 ];
 
 export default function About() {
   return (
     <section id="about" className="relative py-24 bg-[#030014] overflow-hidden">
-      {/* Background glowing circle */}
+
       <div className="absolute top-[40%] right-[5%] w-[450px] h-[450px] bg-radial-gradient-purple opacity-40 pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">
@@ -55,11 +54,11 @@ export default function About() {
             </h3>
             
             <p className="text-slate-300 text-base leading-relaxed">
-              I am currently pursuing my Bachelor of Technology in Computer Science & Engineering at <strong>KCC Institute of Technology & Management, Greater Noida</strong>. With an academic record of <strong>8.15 CGPA</strong>, I possess a strong theoretical background in Core Computer Science concepts alongside a drive for hands-on software development.
+              I am currently pursuing my Bachelor of Technology in Computer Science & Engineering at <strong>KCC Institute of Technology & Management, Greater Noida</strong>. With an academic record of <strong>8.15 CGPA</strong>.
             </p>
 
             <p className="text-slate-300 text-base leading-relaxed">
-              As a dedicated <strong>Java Full Stack Developer</strong>, I focus on constructing robust backend services using <strong>Spring Boot</strong> and mapping databases with <strong>MySQL/SQL</strong>. On the frontend, I create modern responsive user interfaces using <strong>React</strong> and Tailwind CSS, building complete solutions from concept to deployment.
+              As a dedicated <strong>Java Full Stack Developer</strong>, I focus on constructing robust backend services using <strong>Spring Boot</strong> and mapping databases with <strong>MySQL/SQL</strong>.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
@@ -67,7 +66,7 @@ export default function About() {
                 <div className="text-xl text-brand-blue mt-1"><FaLightbulb /></div>
                 <div>
                   <h4 className="font-semibold text-slate-200 text-sm">Problem-Solving Mindset</h4>
-                  <p className="text-xs text-slate-400 mt-1">Avid coder on LeetCode focusing on sorting, searching, tree traversals, and dynamic programming.</p>
+                  <p className="text-xs text-slate-400 mt-1">Focusing on sorting, searching, tree traversals, and dynamic programming.</p>
                 </div>
               </div>
 

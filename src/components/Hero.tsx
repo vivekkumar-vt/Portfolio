@@ -123,7 +123,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-slate-400 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl mb-10"
             >
-              I build scalable web applications, REST APIs, and modern user experiences using Java, Spring Boot, MySQL, React, and JavaScript.
+              I build scalable web applications, REST APIs, and modern user experiences using Java, Spring Boot, MySQL, and JavaScript.
             </motion.p>
 
             {/* Action Buttons Row */}
